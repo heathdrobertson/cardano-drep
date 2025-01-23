@@ -75,11 +75,11 @@
     "givenName": "Heath Robertson",
     "image": {
       "@type": "ImageObject",
-      "contentUrl": "https://raw.githubusercontent.com/bigpey/CardanoGovernance/refs/heads/main/wblF2D_9_400x400%20(1).jpg",
-      "sha256": "9ee7155541c414ab2d425201749efa1392b3ebd9cf91c535dd3e40c3ea461d66"
+      "contentUrl": "https://raw.githubusercontent.com/heathdrobertson/cardano-drep/refs/heads/main/assets/heath-robertson-profile-image.jpg",
+      "sha256": "ea099db64a325be9a8814ebf277959dfd0be76e473170a4ec8bb6510a4aa6b4d"
     },
-    "objectives": "Limit unnecessary treasury spending, fund scaling without compromising Cardano's layer one blockchain revenue, and fund cost-effective marketing. I believe it's also important to fund real World products, with real World revenue and users.",
-    "qualifications": "Found Cardano in 2017. Helped run Cardano's incentivized testnet starting in day three. Helped test Cardano's Haskell SPO code in the friends and family testnet created by IOG with 23 SPOs. Educator and content creator. Founded Atrium Lab, a company that's released 24 videos in a education portal to make Cardano easy, released two smart-contracts that will be open-sourced this year, and a dashboard.",
+    "objectives": "",
+    "qualifications": "",
     "references": [
       {
         "@type": "Other",
