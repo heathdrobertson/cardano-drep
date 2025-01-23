@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:update-uri"
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Heath Robertson",
+    "abstract": "Cardano Onboarding, Educator and SPO. [TETON]",
+    "motivations": "To engage with Cardano's governance as a DRep, driven by a deep interest in how blockchain can reshape financial systems, a commitment to fostering community participation in decentralized governance, and a desire to educate others on the practical benefits and applications of Cardano's technology.",
+    "rationale": "To highlight the potential of Cardano to democratize economic structures and promote inclusivity in decision-making processes. This role will allow me to directly participate in Cardano's development, aligning with my interest in practical blockchain engagement and advocacy for educational outreach and onboarding new individuals into the crypto space.",
+    "paymentAddress": "addr1dontdonatetome",
+    "givenName": "Heath Robertson",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/bigpey/CardanoGovernance/refs/heads/main/wblF2D_9_400x400%20(1).jpg",
+      "sha256": "9ee7155541c414ab2d425201749efa1392b3ebd9cf91c535dd3e40c3ea461d66"
+    },
+    "objectives": "Limit unnecessary treasury spending, fund scaling without compromising Cardano's layer one blockchain revenue, and fund cost-effective marketing. I believe it's also important to fund real World products, with real World revenue and users.",
+    "qualifications": "Found Cardano in 2017. Helped run Cardano's incentivized testnet starting in day three. Helped test Cardano's Haskell SPO code in the friends and family testnet created by IOG with 23 SPOs. Educator and content creator. Founded Atrium Lab, a company that's released 24 videos in a education portal to make Cardano easy, released two smart-contracts that will be open-sourced this year, and a dashboard.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "your-link-title",
+        "uri": "https://link-to-external-stuff"
+      }
+    ],
+    "comment": "put your comment-text here",
+    "externalUpdates": [
+      {
+        "title": "your-title",
+        "uri": "https://another-external-link"
+      }
+    ]
+  },
+  "authors": []
+}
