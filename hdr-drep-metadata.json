@@ -67,31 +67,33 @@
   },
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "title": "Heath Robertson",
-    "abstract": "Cardano Onboarding, Educator and SPO. [TETON]",
-    "motivations": "To engage with Cardano's governance as a DRep, driven by a deep interest in how blockchain can reshape financial systems, a commitment to fostering community participation in decentralized governance, and a desire to educate others on the practical benefits and applications of Cardano's technology.",
-    "rationale": "To highlight the potential of Cardano to democratize economic structures and promote inclusivity in decision-making processes. This role will allow me to directly participate in Cardano's development, aligning with my interest in practical blockchain engagement and advocacy for educational outreach and onboarding new individuals into the crypto space.",
-    "paymentAddress": "addr1dontdonatetome",
+    "paymentAddress": "addr1q9g8dt9j5q7ecv9ppjm228a0ngdagf005kmsr58ys0lnr5c0t0uch70a0yfpvwjkmrvvlmu4sk5yz95ede86xr2crk0qx7v4kt",
     "givenName": "Heath Robertson",
     "image": {
       "@type": "ImageObject",
-      "contentUrl": "https://raw.githubusercontent.com/heathdrobertson/cardano-drep/refs/heads/main/assets/heath-robertson-profile-image.jpg",
-      "sha256": "ea099db64a325be9a8814ebf277959dfd0be76e473170a4ec8bb6510a4aa6b4d"
+      "contentUrl": "https://ipfs.io/ipfs/QmSJWZfyKETRjzQHF4oMuBhXL1kkaYyG1dAFncYTWcz9U5",
+      "sha256": "6200e8da2f3e67c692f0ec812a079cf8e2415920d481abe54a59c953e03ab349"
     },
-    "objectives": "",
-    "qualifications": "",
+    "title": "Heath Robertson",
+    "abstract": "Cardano Onboarding, Educator and SPO. [TETON]",
+    "objectives": "To engage with Cardano's governance as a DRep, driven by a deep interest in how blockchain can reshape financial systems, a commitment to fostering community participation in decentralized governance, and a desire to educate others on the practical benefits and applications of Cardano's technology.",
+    "motivations": "To highlight the potential of Cardano to democratize economic structures and promote inclusivity in decision-making processes. This role will allow me to directly participate in Cardano's development, aligning with my interest in practical blockchain engagement and advocacy for educational outreach and onboarding new individuals into the crypto space.",
+    "qualifications": "Cardano onboarding, educator, content creator and SPO. [TETON]",
     "references": [
       {
-        "@type": "Other",
-        "label": "your-link-title",
-        "uri": "https://link-to-external-stuff"
-      }
-    ],
-    "comment": "put your comment-text here",
-    "externalUpdates": [
+        "@type": "Link",
+        "label": "Drep Profile NFT",
+        "uri": "https://pool.pm/asset1j0hx0hamwcs3mj3sejcuwygcr9rxcvddvxuu48"
+      },
       {
-        "title": "your-title",
-        "uri": "https://another-external-link"
+        "@type": "Link",
+        "label": "Website",
+        "uri": "https://rockinghat.com"
+      },
+      {
+        "@type": "Link",
+        "label": "Linktree",
+        "uri": "https://linktr.ee/rockinghat"
       }
     ]
   },
