@@ -1,5 +1,5 @@
-# cardano-drep
-Cardano Governance Drep Tools
+# Cardano SPO & Drep
+Cardano: SPO | Governance Drep Information
 
 
 ## Heath Robertson
